@@ -1,1 +1,1 @@
-# .github
+# Jacks Theater GameDev Team
