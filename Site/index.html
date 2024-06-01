@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+@media (max-width: 830px) {
+    .roster {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        overflow-x: wrap;
+        overflow-y: hidden;
+    }
+
+    .roster-item img {
+        width: 30vw; /* adjust the width as needed */
+        height: 30vw; /* adjust the height as needed */
+        margin: 1vw;
+    }
+    
+    .roster-item .name {
+        margin-top: 2px; /* adjust the margin as needed */
+        font-size: 4vw;
+        margin-bottom: 10px;
+    }
+}
+
+@media (min-width: 830px) {
+    .roster {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        overflow-x: auto;
+        overflow-y: hidden;
+    }
+
+    .roster-item img {
+        width: 15vw; /* adjust the width as needed */
+        height: 15vw; /* adjust the height as needed */
+        margin: 1vw;
+    }
+    
+    .roster-item .name {
+        margin-top: 2px; /* adjust the margin as needed */
+        font-size:2vw;
+        margin-bottom: 10px;
+    }
+}
+
+
+</style>
+
+<body>
+
+<div class="roster">
+    <div class="roster-item">
+        <img src="./Pfp/error.jpg" alt="Image 1">
+        <div class="name">mienappels</div>
+    </div>
+    <div class="roster-item">
+        <img src="./Pfp/Captain.jpg" alt="Image 2">
+        <div class="name">RealCaptainObvious</div>
+    </div>
+    <div class="roster-item">
+        <img src="./Pfp/Gamechanger.jpeg" alt="Image 3">
+        <div class="name">Gamechang3rr</div>
+    </div>
+    <div class="roster-item">
+        <img src="./Pfp/Koolmees.jpeg" alt="Image 4">
+        <div class="name">kool5mees</div>
+    </div>
+    <!-- <div class="roster-item">
+        <img src="./Pfp/" alt="Image 5">
+        <div class="name">Penguin</div>
+    </div> -->
+</div>
+</body>
+</html>
