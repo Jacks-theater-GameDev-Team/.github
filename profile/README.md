@@ -1,4 +1,7 @@
-## Hi there 👋
+# Jacks Theater GameDev Team
+
+We are a group of people from a friend group called Jacks Theater. Most of us have a background in IT or Game design/development.
+
 
 <!--
 
